@@ -1,0 +1,13 @@
+{
+  "testFiles": "**/*.spec.js",
+  "baseUrl": "http://localhost:5173/signin",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reporDir": "cypress/report/mochawesome-report",
+    "overwrite": true,
+    "html": true,
+    "json": false,
+    "timestamp": "mmddyyyy_HHMMss"
+  },
+  "projectId": "hubk4x"
+}
